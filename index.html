@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresuan University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Naresuan University</h1>
+    </div>
+ 
+    <div class="container">
+        <div class="left">
+            <h2>ข้อมูลส่วนตัว</h2>
+            <form action="#" method="post">
+                <label for="name">ชื่อ - นามสกุล:</label>
+                <input type="text" id="name" name="name" required>
+ 
+                <label for="id">รหัสนิสิต:</label>
+                <input type="text" id="id" name="id" required>
+ 
+                <label for="faculty">คณะ:</label>
+                <input type="faculty" name="faculty">  
+ 
+                <label for="major">สาขา:</label>
+                <input type="major" name="major">
+                   
+                <label for="year">ชั้นปี:</label>
+                <select id="year" name="year">
+                    <option value="">เลือกชั้นปี</option>
+                    <option value="1">ปี 1</option>
+                    <option value="2">ปี 2</option>
+                    <option value="3">ปี 3</option>
+                    <option value="4">ปี 4</option>
+                </select>
+ 
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="phone">เบอร์โทร:</label>
+                <input type="text" id="phone" name="phone" required>
+ 
+                <h2>ข้อมูลผู้ใช้</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+ 
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+ 
+                <div class="buttons">
+                    <button type="submit" class="btn-primary">สมัครสมาชิก</button>
+                    <button type="reset" class="btn-secondary">ยกเลิก</button>
+                </div>
+            </form>
+        </div>
+ 
+        <!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresuan University</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function openForm() {
+            var formSelect = document.getElementById("formSelect").value;
+            if (formSelect) {
+                window.open(formSelect, "_blank");
+            }
+        }
+    </script>
+</head>
+<body>
+ 
+    <div class="right">
+        <div class="menu">
+            <ul>
+                <li><a href="#">บัญชี</a></li>
+                <li><a href="#">การแจ้งเตือน</a></li>
+                <li><a href="#">แก้ไขข้อมูลส่วนตัว</a></li>
+                <li><a href="#">แบบฟอร์ม</a></li><div class="container">
+                    <label for="formSelect">เลือกแบบฟอร์ม:</label>
+                        <select id="formSelect" onchange="openForm()">
+                            <option value="" disabled selected>-- กรุณาเลือกแบบฟอร์ม --</option>
+                            <option value="https://drive.google.com/file/d/19MmyLoFOXbKuv7sVcSIKuAG6K1AwlQZW/view?usp=drive_link" target="_blank">แบบฟอร์มลาออก</option>
+                            <option value="https://drive.google.com/file/d/1vQpSRRQ8TpZfQyyNNh3YM7laSouE-WZ6/view?usp=drive_link" target="_blank">แบบใบลาพักก่อน</option>
+                            <option value="https://drive.google.com/file/d/1k0RGGeU1WBid56kih7fyUfGLzFHVQMqy/view?usp=drive_link" target="_blank">แบบฟอร์มใบลาไปศึกษา / ดูงาน</option>
+                            <option value="https://drive.google.com/file/d/1TNb7OC26Aaq7rb9vOnfC3Les5gP90MWL/view?usp=drive_link" target="_blank">แบบฟอร์มลาอุปสมบท</option>
+                            <option value="https://drive.google.com/file/d/1hpJdJyF00HJY8eF2mOej2mGcKFMW94fG/view?usp=drive_link" target="_blank">แบบใบลาไปฟื้นฟูสมรรถภาพด้านอาชีพ</option>
+                            <option value="https://drive.google.com/file/d/1NMT0Vqn52OVqAZwFASWjUG3YpVfMsUTR/view?usp=drive_link" target="_blank">แบบใบลาไปปฏิบัติงานในองค์กรระหว่างประเทศ</option>
+                            <option value="https://drive.google.com/file/d/1CaYf2QiuIPNkaP3jdDl9Il0QnUaZKmJh/view?usp=drive_link" target="_blank">แบบใบขอยกเลิกวันลา</option>
+                            <option value="https://drive.google.com/file/d/1LXtoefI_U1GYQw-YdUvXuGbAH8TQ4PwC/view?usp=drive_link" target="_blank">แบบใบลาป่วย / ลาคลอดบุตร / ลากิจส่วนตัว</option>
+                            <option value="https://drive.google.com/file/d/1s4Hs8ga7PUR5SOSIn2zWbXdnZL3z78B2/view?usp=drive_link" target="_blank">แบบฟอร์มประเมินการอบรม</option>
+                        </select>
+            </ul>
+            <a href="#" class="login-button">เข้าสู่ระบบ</a>
+        </div>
+    </div>
+</div>
+ 
+   
+</body>
+</html>
